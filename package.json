@@ -1,0 +1,11 @@
+{
+  "name": "levelup",
+  "theme": "ui",
+  "version": "0.0.1",
+  "description": "The Level Up Tutorials Theme",
+  "license": "Proprietary",
+  "engines": {
+    "atom": "*"
+  },
+  "private": true
+}

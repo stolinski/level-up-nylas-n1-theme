@@ -1,0 +1,107 @@
+@gray-base:    #ffffff;
+@gray-darker:  darken(@gray-base, 13.5%); // #222
+@gray-dark:    darken(@gray-base, 20%);   // #333
+@gray:         darken(@gray-base, 33.5%); // #555
+@gray-light:   darken(@gray-base, 46.7%); // #777
+@gray-lighter: darken(@gray-base, 92.5%); // #eee
+@white:        #0a0b0c;
+
+@background-off-primary: #212121;
+@background-secondary:   #2D2D2D;
+@background-tertiary:    #6d7987;
+
+@background-primary:        #212121;
+@background-color:          #212121;
+@btn-default-bg-color:      #404040;
+@dropdown-default-bg-color: #404040;
+@accent-primary:            lighten(#00BCD4, 20%);
+@accent-primary-dark:       lighten(#00BCD4, 20%);
+
+@text-color:                      #C2C2C2;
+@text-color-subtle:               fadeout(@text-color, 20%);
+@text-color-very-subtle:          fadeout(@text-color, 40%);
+@text-color-inverse:              white;
+@text-color-inverse-subtle:       fadeout(@text-color-inverse, 20%);
+@text-color-inverse-very-subtle:  fadeout(@text-color-inverse, 50%);
+@text-color-heading:              #FFF;
+
+@border-primary-bg:     lighten(@background-primary, 10%);
+@border-secondary-bg:   lighten(@background-secondary, 10%);
+@border-tertiary-bg:    lighten(@background-tertiary, 10%);
+@border-color-divider:  @border-secondary-bg;
+
+@input-bg:              #242424;
+@input-border:          @border-color-divider;
+
+@list-bg:               #333;
+@list-border:           #383838;
+
+@list-selected-color:   @text-color-inverse;
+
+@toolbar-background-color: @background-secondary;
+
+.thread-icon:not(.thread-icon-unread) {
+  -webkit-filter: invert(100%);
+}
+img.content-dark {
+  -webkit-filter: invert(100%);
+}
+img.content-light {
+  -webkit-filter: invert(100%);
+}
+
+.btn {
+    background-image: none;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    transition: 0.3s ease all;
+    cursor: pointer;
+    &:hover {
+        background: #111;
+    }
+}
+
+.sheet-toolbar {
+    border-bottom: 6px solid #111;
+}
+
+.sheet-toolbar-container {
+    background: #212121;
+    background-image: none;
+}
+
+.flexbox-handle-horizontal div {
+    border: none;
+}
+
+.search-bar .menu .header-container input {
+    border: none;
+    background-color: #333;
+}
+
+.column-ThreadList {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    z-index: 9;
+}
+
+.column-RootSidebar {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    z-index: 10;
+}
+
+#message-list .message-item-wrap .message-item-white-wrap {
+    background: #FFF;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.btn-feedback {
+    background-image: none;
+    background-color: #FF7043;
+    border: none;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.thread-icon:not(.thread-icon-unread) {
+  -webkit-filter: brightness(10) grayscale(1);
+}
