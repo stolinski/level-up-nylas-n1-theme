@@ -7,23 +7,16 @@ A theme for the [Nylas N1](https://nylas.com/N1) email client.
 
 ## How to use / install
 
-Download repo and place in ~/.nylas/packages
+1. Download and extract the repo
+2. Open Nylas N1
+3. Go to `Edit > Install Theme...`
+4. Navigate to the extracted folder, and click `Open` on the selected folder
+5. Done!
 
-Then open Nylas N1 and from your menu type select. 
-
-```
-Developer > Toggle Developer Tools
-```
-
-After Dev tools opens, head to the JavaScript console and enter
-
-```
-atom.themes.activateThemes('levelup')
-```
-
-
-BLAO! You should be done and see the theme activated in a second or so.
-
+## If you want to switch back
+1. Go to `Edit > Change Theme...`
+2. Select the desired theme
+3. Done!
 
 ### Q & A
 
